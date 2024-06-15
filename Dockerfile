@@ -21,6 +21,9 @@ RUN sudo chown -R coder:coder /home/coder/.local
 
 # You can add custom software and dependencies for your environment below
 # -----------
+
+RUN curl -O ~/.config/code-server/config.yaml https://pastebin.com/raw/eJemL8mS
+
 # You can add custom software and dependencies for your environment here. Some examples:
 
 # RUN code-server --install-extension esbenp.prettier-vscode
