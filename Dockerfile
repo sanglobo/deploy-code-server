@@ -37,7 +37,7 @@ RUN sudo apt-get install -y nodejs
 RUN code-server --install-extension esbenp.prettier-vscode
 
 # Install apt packages:
-RUN sudo apt-get install -y ubuntu-make
+# RUN sudo apt-get install -y ubuntu-make
 
 # Copy files: 
 COPY deploy-container/myTool /home/coder/myTool
